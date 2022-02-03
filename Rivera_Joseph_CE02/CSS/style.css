@@ -1,22 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Prompt:ital,wght@0,300;0,700;1,400&family=Space+Mono&display=swap');
+
 body {
     background: rgb(238, 174, 202);
     background: radial-gradient(
         circle,
         rgba(238, 174, 202, 1) 0%,
-        rgba(148, 187, 233, 1) 100%
+        rgba(233, 209, 148, 1) 100%
     );
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     text-align: center;
     font-size: 50px;
     color: rgb(128, 189, 255);
     text-shadow: 0 0 5px #000;
 }
-
+h3 {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(128, 189, 255);
+    text-shadow: 0 0 5px #000;
+}
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     text-align: center;
     font-size: 20px;
     color: #fff;
