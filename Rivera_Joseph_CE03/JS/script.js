@@ -27,10 +27,14 @@ let salesTax = parseFloat(prompt("What is the sales tax rate?"));
 //Calculations variables
 let totalPrice = itemAmount * priceItem;
 let totalPrice2 = itemAmount2 * priceItem2;
+// total before taxes
+let totalBeforetaxes = totalPrice + totalPrice2;
+//SalesTax Calculations(don't know about this right)
+salesTax = salesTax / totalBeforetaxes;
+//calculate the grandTotal of the item
+let grandTotal = totalBeforetaxes + salesTax;
 
-let totalSalestax = totalPrice * totalPrice2 * (1 + salesTax);
-
-//calculate the total cost of the item
+console.log("Here is your receipt");
 
 console.log(
     "(" +
@@ -61,5 +65,5 @@ console.log(
 );
 
 console.log("Subtotal Before Tax: $" + (totalPrice + totalPrice2));
-
-console.log("Sales Tax: $" + totalSalestax);
+console.log("Sales Tax: " + salesTax);
+console.log("Grand Total: $" + grandTotal);
