@@ -30,9 +30,11 @@ let totalPrice2 = itemAmount2 * priceItem2;
 // total before taxes
 let totalBeforetaxes = totalPrice + totalPrice2;
 //SalesTax Calculations(don't know about this right)
-salesTax = salesTax / totalBeforetaxes;
+salesTax = salesTax / 100;
+let salesTaxAmount = totalBeforetaxes * salesTax;
+
 //calculate the grandTotal of the item
-let grandTotal = totalBeforetaxes + salesTax;
+let grandTotal = totalBeforetaxes + salesTaxAmount;
 
 console.log("Here is your receipt");
 
@@ -65,5 +67,5 @@ console.log(
 );
 
 console.log("Subtotal Before Tax: $" + (totalPrice + totalPrice2));
-console.log("Sales Tax: " + salesTax);
+console.log("Sales Tax: " + salesTaxAmount);
 console.log("Grand Total: $" + grandTotal);
