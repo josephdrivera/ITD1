@@ -5,7 +5,7 @@ Feb. 9, 2022
 
 //Grade Letter Calculator
 // ask the user for a grade
-let score = prompt("what is your score?");
+let score = parseInt(prompt("what is your score?"));
 
 /* convert the score to a letter grade
  * if the score is greater than or equal to 90, the letter grade is A
