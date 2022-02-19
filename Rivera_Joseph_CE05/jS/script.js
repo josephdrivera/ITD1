@@ -29,3 +29,10 @@ Where X is the total of the 2 items. Make sure to round the cost to 2 decimal pl
 Or if they do get a discount: “Your total purchase is $X, which includes your Y% discount.”
 Where X is the total of the 2 items. Make sure to round the cost to 2 decimal places!
 Where Y is the discount they receive. */
+
+/* prompt the user for prices of two items. Then give them a discount based on their total. */
+
+alert("Discount Double-Check");
+alert("Let's go shopping!");
+
+let firstItem = parseFloat(prompt("What is the cost of your First Item?"));
