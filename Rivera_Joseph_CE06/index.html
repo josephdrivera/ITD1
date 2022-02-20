@@ -51,8 +51,29 @@
     <input type="number" name="pintsAmt" id="pintsAmt"><label for="pintsAmt">Pints</label><br>
     <input type="number" name="cupsAmt" id="cupsAmt"><label for="cupsAmt">Cups</label>
    </form>
-   <br><br><br>
+   <br>
+   <br>
 
+   <h1>Movie Star</h1>
+   <h2>We will determine what rank you are in the movie club, based on the how many
+    movies you have.</h2>
+   <h3>Fill in the number of each time of movies you have and then press the button to see your rank!</h3>
+
+   <br>
+
+   <form id="movieID">
+    <fieldset>
+        <input type="number" id="numDvds" step="1" min="0" max="200" required><label for="numDvds">Number of DVDs You Own</label><br>
+        <input type="number" id="numBlurays" step="1" min="0" max="200" required><label for="numBlurays">Number of Blu-Rayss You Own</label><br>
+        <input type="number" id="numVvs" step="1" min="0" max="200" required><label for="numVvs">Number of Ultra Violets You Own</label><br>
+        <br>
+        <input type="button" id="Ranking" value="Your Ranking">
+    </fieldset>    
+</form>
+<br>
+<h1 id="Results"></h1>
+<br>
+<img id="bronze" height="340">
 
 
 <script src="/Rivera_Joseph_CE06/JS/scrip.js"></script>
