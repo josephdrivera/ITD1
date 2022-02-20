@@ -25,6 +25,35 @@
         </li>
 <br>
 
+<h1>Fill'er Up!</h1>
+    <h4>We can help you covert your gallons of milk to other forms of measurement.</h4>
+    <h4>Type in the number of gallons to start, choose your conversion and then press the button!<h3>
+
+        <br>
+        <br>
+
+        <form id="fillerUp">
+            <input type="number" id="gallonsNumo" step=".01" min="0" max="20" required><label for="gallonsNumo"># of Gallons To Convert</label>
+    <br>
+    <br> 
+    <fieldset>
+        <legend>What would you like to convert gallons to?</legend>
+        <input type="radio" name="typeAmount" value="quarts" id="quarts" checked><label for="quarts">Quarts</label>
+        <input type="radio" name="typeAmount" value="pints" id="pints"><label for="pints">Pints</label>
+        <input type="radio" name="typeAmount" value="cups" id="cups"><label for="cups">Cups</label>
+    </fieldset>
+    
+    <br><br>
+    
+    <input type="button" id="convertGal" value="Convert">
+    <h2>See your converted amount below!</h2>
+    <input type="number" name="amtQuarts" id="amtQuarts"><label for="amtQuarts">Quarts</label><br>
+    <input type="number" name="pintsAmt" id="pintsAmt"><label for="pintsAmt">Pints</label><br>
+    <input type="number" name="cupsAmt" id="cupsAmt"><label for="cupsAmt">Cups</label>
+   </form>
+   <br><br><br>
+
+
 
 <script src="/Rivera_Joseph_CE06/JS/scrip.js"></script>
 </body>
