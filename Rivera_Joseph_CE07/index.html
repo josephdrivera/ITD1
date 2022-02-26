@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Rivera_Joseph_CE07/CSS/style.css">
+    <title>4.2 Code Exercise 07: Final Project</title>
+</head>
+
+<dir class="generalInfo">
+    <h2>Overview:</h2>
+    <p>For this assignment, you will be utilizing all of the skills that you have learned this month in order to solve one large problem.</p>
+    <h2>Objectives:</h2>
+    <p>Successful completion of this activity will show that you can do the following:</p>
+    <ul class="list">
+        <li>Determine what type of code is needed to solve a problem.</li>
+        <li>Formulate conditional statements for dynamic decision-making.</li>
+        <li>Employ HTML Forms in order to retrieve information from the user.</li>
+        <li>Create logic to resolve a single solution from a selection of possible solutions.</li>
+    </ul>
+
+</dir>
+
+
+<body>
+    <dir class="bmiCalculator">
+    <h1>BMI Calculator</h1>
+    <h2>We can help you find your BMI with a few simple questions.</h2>
+    <h3>Type in height and weight and then press the button!</h3>
+
+</dir>
+    <dir class="form">
+    <form id="BMICalculator">
+        
+        <p>What is your height?</p>
+        <input type="number" id="heightFeet" min="0" max="9" step="1" required><label class="label" for="heightFeet">ft.</label>
+        <input type="number" id="heightInc" min="0" max="12" step=".01" required><label class="label" for="heightInc">in.</label>
+        <br>
+        <br>
+        <p>What is your weigh?</p>
+        <input type="number" id="weight" min="0" max="1400" step=".1" required> <label for="weight">Weight in Lbs</label>
+        <br>
+        <br>
+        <input type="button" class="btn" id="calculateBMI" value="Let Calculate Your BMI">
+    </form>
+    </dir>  
+    
+    <h1 class="finalResults" id="finalResults"></h1>
+    <br>
+    <img id="imgWeight" height="360">
+    
+    <script src="/Rivera_Joseph_CE07/js/scrip.js"></script>
+</body>
+</html>

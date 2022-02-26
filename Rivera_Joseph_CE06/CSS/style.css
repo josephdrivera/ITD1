@@ -8,40 +8,10 @@ body {
     background-color: #b3e95b;
 }
 
-h1 {
+h1 h2 h3 h4 h5 h6 {
     font-family: "Prompt", sans-serif;
     font-size: 3rem;
     color: #1c1c1c;
-    margin: 1rem 0;
-    padding: 1rem;
-}
-h2 {
-    font-family: "Prompt", sans-serif;
-    font-size: 1rem;
-    color: #000000;
-    margin: 1rem 0;
-    padding: 1rem;
-}
-h3 {
-    font-family: "Prompt", sans-serif;
-    font-size: 1.5rem;
-    color: #000000;
-    margin: 1rem 0;
-    padding: 1rem;
-}
-
-h4 {
-    font-family: "Prompt", sans-serif;
-    font-size: 1.5rem;
-    color: #000000;
-    margin: 1rem 0;
-    padding: 1rem;
-}
-
-p {
-    font-family: "Prompt", sans-serif;
-    font-size: 1.5rem;
-    color: #000000;
     margin: 1rem 0;
     padding: 1rem;
 }
